@@ -1,0 +1,66 @@
+{
+  "settings": {
+    "browserSupport": ["> 1%", "not ie 11"],
+    "optimizations": {
+      "css": true,
+      "image": true,
+      "html": true,
+      "js": true
+    },
+    "useOriginalFileNames": false,
+    "entry": {
+      "js": "./script/main.js",
+      "html": "./index.hbs"
+    },
+    "fonts": [
+      {
+        "sources": [
+          "./fonts/OpenSans-Regular.woff",
+          "./fonts/OpenSans-Regular.woff2"
+        ],
+        "subset": {
+          "glyphs": [
+            "content.title"
+          ]
+        }
+      },
+      {
+        "sources": [
+          "./fonts/OpenSans-Bold.woff",
+          "./fonts/OpenSans-Bold.woff2"
+        ],
+        "subset": {
+          "glyphs": [
+            "content.cta"
+          ]
+        }
+      }
+    ]
+  },
+  "content": {
+    "css": "./css/style.css",
+    "defaultFonts": [
+      "OpenSans",
+      "OpenSansBold"
+    ],
+    "defaultFontUrl": "./css/fonts.css",
+    "clickTag": "https://www.google.com",
+    "talent": true,
+    "copy1": {
+      "copy1a": "./img/copy1-a.png",
+      "copy1b": "./img/copy1-b.png",
+      "copy1c": "./img/copy1-c.png",
+      "copy1d": "./img/copy1-d.png"
+    },
+    "copy2": "./img/copy2.png",
+    "ctaCopy": "./img/cta-copy.png",
+    "ctaCopy2": "./img/cta-copy2.png",
+    "flare": "./img/flare1.png",
+    "frame": "./img/frame.svg",
+    "product": "./img/product-30.png",
+    "talentIso": "./img/talent-iso.png",
+    "bg": "./img/talent-bg.jpg",
+    "legal": "./img/legal.png",
+    "bgcolor": "#FFFFFF"
+  }
+}

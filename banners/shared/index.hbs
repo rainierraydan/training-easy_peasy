@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="ad.size" content="width={{settings.size.width}},height={{settings.size.height}}">
+
+  <title>{{settings.size.width}}x{{settings.size.height}}</title>
+
+  <link rel="stylesheet" href="{{content.css}}" type="text/css">
+
+  <script type="text/javascript">
+    var clickTag = "{{content.clickTag}}";
+  </script>
+</head>
+
+<body>
+<div class="banner border">
+  <div class="content fullscreen">
+    {{#if content.talent}}
+      <img class="bg" src="{{content.bg}}" >
+      <img class="frame" src="{{content.frame}}" inline>
+      <div class="talentFrame">
+        <img class="talent" src="{{content.talentIso}}">
+      </div>
+    {{/if}}
+    <img class="legal" src="{{content.legal}}" >
+    <div class="solid"></div>
+    {{#each content.copy1}}
+      <img class="{{@key}} copy1 copys" src="{{this}}">
+    {{/each}}
+    <img class="copy2 copys" src="{{content.copy2}}">
+    <div class="ctaBg1">
+      <img class="ctaCopy" src="{{content.ctaCopy}}">
+    </div>
+    <div class="ctaBg2">
+      <img class="ctaCopy2" src="{{content.ctaCopy2}}">
+    </div>
+    <div class="pack">
+      {{!-- <img class="flare product" src="{{content.flare}}"> --}}
+      <img class="product" src="{{content.product}}">
+    </div>
+  </div>
+  <div class="mainExit fullscreen"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+</body>
+</html>

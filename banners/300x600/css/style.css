@@ -1,0 +1,136 @@
+:root {
+  --red: #d51b28;
+  --grey: #221f1f;
+  --white: #221f1f;
+
+  --width: var(--settings-size-width)px;
+  --height: var(--settings-size-height)px;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  user-select: none;
+}
+
+body {
+  background-color: var(--content-bgcolor);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.fullscreen {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: var(--width);
+  height: var(--height);
+}
+
+.border {
+  border: 1px solid #000000;
+
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  width: var(--width);
+  height: var(--height);
+}
+
+.content {
+  opacity: 0;
+}
+
+.mainExit {
+  cursor: pointer;
+  z-index: 2;
+}
+
+.legal {
+  position: absolute;
+  left: 0px;
+  z-index: 1;
+}
+
+.frame {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  scale: 1;
+}
+
+.talentFrame {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: var(--width);
+  height: var(--height);
+}
+.talent {
+  position: absolute;
+  left: 17px;
+  top: 0px;
+  scale: 1  ;
+}
+
+.copys {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.cta, .ctaBg1, .ctaBg2 {
+  position: absolute;
+  background-color: white;
+  left: 11px;
+  top: 395px;
+  width: 130px;
+  height: 25px;
+}
+
+.ctaBg1 {
+  background-color: white;
+}
+.ctaBg2 {
+  background-color: #8D2F9A;
+  opacity: 0;
+}
+
+.ctaCopy, .ctaCopy2 {
+  position: absolute;
+  top: 7px;
+  left: 8px;
+}
+
+.pack {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: var(--width);
+  height: var(--height);
+}
+.product {
+  position: absolute;
+  left: 83.5px;
+  top: 244px;
+  scale: 1;
+}
+
+.solid {
+  position: absolute;
+  background-color: #8D2F9A;
+  left: 0px;
+  top: 0px;
+  opacity: 1;
+  width: var(--width);
+  height: var(--height);
+}

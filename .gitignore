@@ -1,0 +1,8 @@
+node_modules
+coverage
+/.idea
+.previewsrc
+/build
+/assets
+googlesheet.*
+.uploadrc

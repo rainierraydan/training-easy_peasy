@@ -1,0 +1,25 @@
+{
+  "parent": "../shared/.sharedrc",
+  "settings": {
+    "size": {
+      "width": 728,
+      "height": 90
+    },
+    "entry": {}
+  },
+  "content": {
+    "css": "./css/style.css",
+    "size": "728x90",
+    "copy1": {
+      "copy1a": "./img/copy1-a.png",
+      "copy1b": "./img/copy1-b.png"
+    },
+    "copy2": "./img/copy2.png",
+    "ctaCopy": "./img/cta-copy.png",
+    "ctaCopy2": "./img/cta-copy2.png",
+    "frame": "./img/frame.svg",
+    "talentIso": "./img/talent-iso.png",
+    "bg": "./img/talent-bg.jpg",
+    "legal": "./img/legal.png"
+  }
+}
